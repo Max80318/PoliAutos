@@ -1,0 +1,125 @@
+/* --- ESTILO GENERAL --- */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1c2cb7;
+    color: white;
+    padding: 10px 30px; 
+    display: flex; 
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+header img {
+    width: 150px; 
+    margin-right: 30px; 
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    text-shadow: 4px 4px 2px black;
+    font-size: 40px;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+h2 {
+    color: #2c1650;
+    border-bottom: 2px solid black;
+}
+
+/* Navegación */
+nav {
+
+    background-color: rgb(4, 124, 24);
+    text-align: center;
+    padding: 15px 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px; 
+    font-family: Arial, sans-serif;
+    border-right: 2px solid white;
+    display: inline-block;
+    margin-bottom: 5px; 
+}
+
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    color: #b71c1c;
+    font-size: x-large;
+}
+
+main {
+    display: flex; 
+}
+
+section {
+    width: 75%;
+    padding: 20px;
+    background-color: white;
+}
+
+aside {
+    width: 25%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tablas de Autos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #b71c1c;
+    color: white;
+}
+
+/* Imágenes */
+table img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+/* Videos en Aside */
+aside video {
+    width: 90%;
+    border: 3px solid white;
+    margin-top: 10px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}

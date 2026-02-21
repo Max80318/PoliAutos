@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Formulario de Compra - PoliAutos</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <img src="logo.png" width="200" alt="Logo PoliAutos">
+        <h1>SOLICITUD DE COMPRA</h1>
+    </header>
+    <nav>
+        <a href="ventas/ventas.html">ventas</a> ||
+        <a href="index.html">Inicio</a> ||
+        <a href="financiamento.html">Ver Financiamiento</a>
+    </nav>
+
+    <main>
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Datos del Cliente</legend>
+                    <table border="0">
+                        <tr>
+                            <td><label>Nombre Completo:</label></td>
+                            <td><input type="text" name="nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>DPI:</label></td>
+                            <td><input type="number" name="dpi" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>NIT:</label></td>
+                            <td><input type="text" name="nit"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Teléfono:</label></td>
+                            <td><input type="number" name="telefono"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Datos del Vehículo</legend>
+                    <table border="0">
+                        <tr>
+                            <td><label>Marca de Interés:</label></td>
+                            <td>
+                                <select name="marca">
+                                    <option>Toyota</option>
+                                    <option>Honda</option>
+                                    <option>Mazda</option>
+                                    <option>hyunday</option>
+                                    <option>Nissan</option>
+                                    <option>CHEVROLET</option>
+                                    <option>Ford</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Modelo (Año):</label></td>
+                            <td><input type="number" name="modelo" min="2010" max="2026"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <p>¿Necesitas crédito? <a href="financiamento.html" style="color: blue;">Consulta nuestros planes aquí</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                
+                <center><input type="submit" value="Enviar Solicitud de Compra"></center>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <center><b>© PoliAutos S.A. 2026</b></center>
+    </footer>
+</body>
+</html>
